@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grand+Hotel&family=Handlee&family=Heebo&family=Homenaje&family=Inter:wght@400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=PT+Sans&family=Passion+One:wght@400;700;900&family=Poppins&family=Rajdhani:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&family=Ysabeau+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    background-color: #121214;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    background-color: #343439;
+    padding: 30px 40px;
+    min-width: 470px;
+    color: #efefef;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.305);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#input-grupo{
+    display: flex;
+    padding: 20px 0;
+    gap: 50px;
+}
+
+#box-min,#box-max{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #7336ff;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 5px;
+    color: #fff;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 3px solid #7336ff;
+}
+
+#box-gerar{
+    width: 100%;
+}
+
+#gerar{
+    background-color: #7336ff;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 20px 0px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#resultado{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+@media screen and (max-width:768px){
+    #box-min{
+        width: 160px;
+    }
+    #box-max{
+        width: 160px;
+    }
+    
+    #input-grupo{
+        gap: 30px;
+    }
+
+    
+}
