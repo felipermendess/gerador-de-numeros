@@ -15,7 +15,7 @@ Projeto que gera números aleatórios por meio de um número minímo e máximo s
 - Escolher número mínimo e máximo.
 
 ## Implantar 
-Link do projeto: 
+Link do projeto: https://felipermendess.github.io/gerador-de-numeros/
 
 ## Minhas Redes
 Meu linkedin: https://www.linkedin.com/in/felipermendess/ <br>
