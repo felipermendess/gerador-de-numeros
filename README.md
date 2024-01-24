@@ -1,5 +1,5 @@
 # Gerador de Números
-Projeto que gera números aleatórios por meio de um número minímo e máximo sendo escolhidos pelo usuário. <strong>HTML, CSS e JavaScript</strong> foram utilizados no desenvolvimento do projeto.
+Projeto que gera número aleatório por meio de um número minímo e máximo sendo escolhidos pelo usuário. <strong>HTML, CSS e JavaScript</strong> foram utilizados no desenvolvimento do projeto.
 <img src="img/projeto-gerador.png">
 
 ## Tecnologias Utilizadas
